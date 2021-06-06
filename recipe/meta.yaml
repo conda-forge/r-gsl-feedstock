@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 3
+  number: 4
   rpaths:
     - lib/R/lib/
     - lib/
@@ -37,6 +37,7 @@ requirements:
     - r-base
     - {{ native }}gsl             # [win]
     - gsl                       # [not win]
+    - libblas
   run:
     - r-base
     - {{ native }}gsl             # [win]
@@ -50,7 +51,7 @@ test:
 
 about:
   home: https://github.com/RobinHankin/gsl.git
-  license: GPL-3
+  license: GPL-3.0-only
   summary: ' An R wrapper for some of the functionality of the Gnu Scientific Library.'
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
