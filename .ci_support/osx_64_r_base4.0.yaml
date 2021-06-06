@@ -12,6 +12,8 @@ cran_mirror:
 - https://cran.r-project.org
 gsl:
 - '2.6'
+libblas:
+- 3.8 *netlib
 macos_machine:
 - x86_64-apple-darwin13.4.0
 pin_run_as_build:
