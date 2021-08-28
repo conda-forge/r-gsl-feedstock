@@ -11,7 +11,7 @@ channel_targets:
 cran_mirror:
 - https://cran.r-project.org
 gsl:
-- '2.6'
+- '2.7'
 libblas:
 - 3.8 *netlib
 macos_machine:
