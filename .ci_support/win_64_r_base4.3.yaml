@@ -7,7 +7,7 @@ cran_mirror:
 gsl:
 - '2.7'
 libblas:
-- 3.9 *netlib
+- 3.9.* *netlib
 m2w64_c_compiler:
 - gcc
 m2w64_c_compiler_version:
