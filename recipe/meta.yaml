@@ -1,4 +1,4 @@
-{% set version = "2.1-8" %}
+{% set version = "2.1-9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gsl_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gsl/gsl_{{ version }}.tar.gz
-  sha256: f33609bf485abd190e65ff5d0fdab438b759294c47b921d983d89d6f053a2d95
+  sha256: 56dec6105a882c7d976765b879d0832b436f0371c174e34a3e37bc390c56ed80
 
 build:
-  number: 4
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
